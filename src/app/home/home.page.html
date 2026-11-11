@@ -1,20 +1,87 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<div class="ion-page" id="main-content">
+  
+<ion-header collapse="condense">
+      <ion-toolbar>
+        <ion-title size="large">CoffeApp1</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  <ion-header [translucent]="true">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-buttons slot="start">
+        <ion-menu-button auto-hide="false"></ion-menu-button>
+      </ion-buttons>
+      <ion-title>CoffeApp</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+  <ion-content [fullscreen]="true">
+    
+
+    <ion-grid class="container">
+      <ion-row class="ion-align-items-center ion-justify-content-center">
+        <ion-col size="5" class="col1"><h3>col 1</h3></ion-col>
+        <ion-col size="5" class="col1"><h3>col 2</h3></ion-col>
+      </ion-row>
+      <ion-row>
+        <ion-col size="5" id="col"><h3>col 3</h3></ion-col>
+        <ion-col size="5" id="col"><h3>col 4</h3></ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <!-- PARTICIPACION -->
+    <ion-grid class="participacion">
+      <ion-row>
+        <ion-col size="12">
+          <h3>Participación</h3>
+        </ion-col>  
+      </ion-row>
+      <!-- recuadro negro -->
+      <ion-row class="cajanegra">
+        <ion-col size="12">
+          <div class="gris base">
+            <div class="gris uno">
+              <div class="gris dos">
+                <div class="gris tres">
+                  <div class="gris cuatro">
+                    <div class="gris cinco">
+                      <div class="gris seis"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-grid>  
+      <ion-row>
+        <ion-col size="12" size-md="6" size-lg="3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Recusandae, quibusdam!</p>
+        </ion-col>
+        <ion-col size="12" size-md="6" size-lg="3">
+          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </ion-col>
+        <ion-col size="12" size-md="6" size-lg="3">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Recusandae, quibusdam!</p>
+        </ion-col>
+        <ion-col size="12" size-md="6" size-lg="3">
+          <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <!-- Tarjeta -->
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Mi producto</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        café 
+      </ion-card-content>
+    </ion-card>
+
+  </ion-content>
+</div>

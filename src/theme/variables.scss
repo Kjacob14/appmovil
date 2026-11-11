@@ -1,2 +1,35 @@
 // For information on how to create your own theme, please refer to:
 // https://ionicframework.com/docs/theming/
+
+:root {
+    --colorGris: #898484;
+	--ion-color-rosa: #f0a8ed;
+	--ion-color-rosa-rgb: 240,168,237;
+	--ion-color-rosa-contrast: #000000;
+	--ion-color-rosa-contrast-rgb: 0,0,0;
+	--ion-color-rosa-shade: #d394d1;
+	--ion-color-rosa-tint: #f2b1ef;
+    --ion-color-morao: #8538a8;
+	--ion-color-morao-rgb: 133,56,168;
+	--ion-color-morao-contrast: #ffffff;
+	--ion-color-morao-contrast-rgb: 255,255,255;
+	--ion-color-morao-shade: #753194;
+	--ion-color-morao-tint: #914cb1;
+}
+
+.ion-color-rosa {
+	--ion-color-base: var(--ion-color-rosa);
+	--ion-color-base-rgb: var(--ion-color-rosa-rgb);
+	--ion-color-contrast: var(--ion-color-rosa-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-rosa-contrast-rgb);
+	--ion-color-shade: var(--ion-color-rosa-shade);
+	--ion-color-tint: var(--ion-color-rosa-tint);
+}
+.ion-color-morao {
+	--ion-color-base: var(--ion-color-morao);
+	--ion-color-base-rgb: var(--ion-color-morao-rgb);
+	--ion-color-contrast: var(--ion-color-morao-contrast);
+	--ion-color-contrast-rgb: var(--ion-color-morao-contrast-rgb);
+	--ion-color-shade: var(--ion-color-morao-shade);
+	--ion-color-tint: var(--ion-color-morao-tint);
+}

@@ -1,3 +1,30 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+
+  <ion-menu contentId="main-content" side="start" type="overlay">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>MENU</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  
+
+    <ion-content class="ion-padding">
+      <ion-menu-toggle >
+        @for (m of menu; track $index) {
+        <ion-item [routerLink]="m.ruta">
+          <ion-icon slot="start" [name]="m.icon" [color]="m.color"></ion-icon>
+          <ion-label>{{m.titulo}}</ion-label>
+        </ion-item>
+        }
+
+        
+          
+      </ion-menu-toggle>
+    </ion-content>
+
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
+
+
 </ion-app>

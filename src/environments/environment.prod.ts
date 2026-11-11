@@ -1,3 +1,7 @@
 export const environment = {
-  production: true
+  production: true,
+
+URL_BASE:'https://rickandmortyapi.com/api/',
+personajes: 'character',
 };
+

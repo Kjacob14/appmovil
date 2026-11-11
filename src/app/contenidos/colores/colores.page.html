@@ -1,0 +1,62 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+
+    <ion-title>colores</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  
+  <ion-grid fixed>
+    <ion-row>
+
+    <ion-col size="12">
+      <ion-text>
+        <h3>Colores de IONIC</h3>
+      </ion-text>
+      <ion-item color="primary">
+        <ion-label>primario</ion-label>
+      </ion-item>
+      <ion-item color="success">
+        <ion-label>sucess</ion-label>
+      </ion-item>
+      <ion-item color="danger">
+        <ion-label>danger</ion-label>
+      </ion-item>
+    </ion-col>
+    <ion-col size="12">
+      <ion-text>
+        <h3>Colores hechos con herramienta de IONIC</h3> 
+      </ion-text>
+      <ion-item color="rosa">
+        <ion-label>color rosa personalizado</ion-label>
+      </ion-item>
+      <ion-item color="morao">
+        <ion-label>color morao personalizado</ion-label>
+      </ion-item>
+    </ion-col>
+<!--tercera columna-->
+    <ion-col size="12" class="fondo">
+      <ion-text class="ion-text-center">
+        <h3>Colores con variables</h3> 
+      </ion-text>
+      <ion-card color="morao">
+        <ion-card-header>
+          <ion-card-subtitle>Awesome Subtitle</ion-card-subtitle>
+          <ion-card-title>Awesome Title</ion-card-title>
+        </ion-card-header>
+        <ion-card-content>
+          Awesome content
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+</ion-content>

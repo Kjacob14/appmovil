@@ -1,0 +1,35 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>MODAL22
+
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+        <mat-slide-toggle>Toggle me!</mat-slide-toggle>
+      </ion-col>
+      <ion-col size="12">
+        <mat-button-toggle-group name="fontStyle" aria-label="Font Style">
+          <mat-button-toggle>1</mat-button-toggle>
+          <mat-button-toggle>2</mat-button-toggle>
+          <mat-button-toggle>3</mat-button-toggle>
+        </mat-button-toggle-group>
+      </ion-col>
+      <ion-col size="12">
+        <mat-tab-group>
+          <mat-tab label="pagina 1"> pagina  1 </mat-tab>
+          <mat-tab label="pagina 2"> pagina 2 </mat-tab>
+          <mat-tab label="pagina 3"> pagina  3 </mat-tab>
+        </mat-tab-group>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
